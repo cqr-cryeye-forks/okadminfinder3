@@ -97,16 +97,16 @@ def url(site):
                                        'bright')
 
                 # Stopped process? and waiting for input for continue
-                n = 10
-                for x in range(totalCount):
-                    # what to do every time.
-                    if adminCount % n == 0:
-                        # what to do every nth time.
-                        messenger.writeInput(
-                            '  Press' + Fore.BLUE + Style.BRIGHT + ' ENTER ' + Fore.WHITE + Style.NORMAL + 'to continue scanning OR' + Fore.RED + Style.BRIGHT + ' CTRL+C ' + Fore.WHITE + Style.NORMAL + 'to cancel \n')
-                        break
-                    else:
-                        continue
+                # n = 10
+                # for x in range(totalCount):
+                #     # what to do every time.
+                #     if adminCount % n == 0:
+                #         # what to do every nth time.
+                #         messenger.writeInput(
+                #             '  Press' + Fore.BLUE + Style.BRIGHT + ' ENTER ' + Fore.WHITE + Style.NORMAL + 'to continue scanning OR' + Fore.RED + Style.BRIGHT + ' CTRL+C ' + Fore.WHITE + Style.NORMAL + 'to cancel \n')
+                #         break
+                #     else:
+                #         continue
 
             # If HTTPerrors continue testing other links
             else:
